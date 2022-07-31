@@ -4,9 +4,8 @@
   "private": true,
   "engines": {
     "node": "16.16.0",
-    "npm":"8.11.0"
+    "npm": "8.11.0"
   },
-  
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -17,14 +16,14 @@
     "react-scripts": "^5.0.1",
     "react-tilt": "^0.1.4",
     "react-update": "^0.4.4",
-    "serve": "^6.4.10",
+    "serve": "^6.5.8",
     "serve-react": "^0.0.3",
     "tailwind": "^4.0.0",
     "web-vitals": "^2.1.4",
     "zustand": "^4.0.0-rc.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
