@@ -4,7 +4,7 @@ import React, {
 import './App.css';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
-import Logo from './components/Lonpm go/Logo';
+import Logo from './components/Logo/Logo';
 import Navigation from './components/Navigation/Navigation';
 import Rank from './components/Rank/Rank';
 import SignInForm from './components/signIn/signInForm';

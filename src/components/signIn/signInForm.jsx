@@ -68,7 +68,7 @@ const SignInForm = ({ onRouteChange, loadUser }) => {
                         <div>
                              {
                              displayError?
-                         <p className='text-red-700 font-sans mt-1 decoration-white'>Email or Password are incorrect</p>
+                         <p className='text-red-700 font-sans mt-1 decoration-white'>Email or Password is incorrect</p>
                          :null
                          }
                          </div>

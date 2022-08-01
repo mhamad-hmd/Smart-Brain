@@ -5,7 +5,7 @@ const Rank = ({name, entries}) => {
         <div>
             <div className='text-3xl text-white'>
                 {/* displayin the user name */}
-                {name +', your curent rank is...'}
+                {name +', your current rank is...'}
             </div>
             <div className='text-4xl text-white'>
                {/* displayin the rank as his entries number */}
