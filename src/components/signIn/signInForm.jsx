@@ -53,7 +53,7 @@ const SignInForm = ({ onRouteChange, loadUser }) => {
                                 <label className="block" htmlFor="email">Email</label>
                                 <input
                                     // using onChange function to get the users email input and storing it in the Email state
-                                    onChange={(e) => { setEmail(e.target.value) }}
+                                    onChange={(e) => { setEmail(e.target.value.toLowerCase()) }}
                                     type="text"
                                     className="w-full  shadow-2xl  bg-white/0 px-4 py-2 mt-2 border border-black rounded-md focus:outline-none focus:ring-1 focus:ring-white" />
                             </div>

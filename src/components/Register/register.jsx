@@ -69,7 +69,7 @@ const Register = ({onRouteChange, loadUser}) => {
                         <div>
                             <label className="block mt-4" htmlFor="email">Email</label>
                                 <input
-                                onChange={e => setEmail(e.target.value)}
+                                onChange={e => setEmail(e.target.value.toLowerCase())}
                                 type="email"
                                     className="w-full  shadow-2xl  bg-white/0 px-4 py-2  border border-black rounded-md focus:outline-none focus:ring-1 focus:ring-white"/>
                                 </div>
