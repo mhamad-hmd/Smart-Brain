@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "engines": {
     "node": "16.16.0",
     "npm": "8.11.0"
@@ -23,7 +24,9 @@
     "zustand": "^4.0.0-rc.4"
   },
   "scripts": {
-    "start":  "serve -s build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
