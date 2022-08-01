@@ -30,7 +30,7 @@ const Register = ({onRouteChange, loadUser}) => {
     .then(user => {
         if(user.id){
             loadUser(user)
-            onRouteChange('home')
+            onRouteChange('signin')
 
         }
 
